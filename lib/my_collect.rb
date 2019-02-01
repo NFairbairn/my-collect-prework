@@ -7,7 +7,7 @@ def my_collect (array)
       result << block.call(element)
     end
     i = i + 1
-    
+
   end
   array
 end
