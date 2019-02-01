@@ -6,8 +6,7 @@ def my_collect (array)
     array.each do |element|
       result << block.call(element)
     end
-    i = i + 1
-
+      i = i + 1
   end
-  array
+  result
 end
