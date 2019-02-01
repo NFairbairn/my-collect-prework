@@ -4,8 +4,7 @@ def my_collect (array)
     yield (array[i])
     my_collect(array) do |name|
   name.split(" ").first
-  end
-  i = i + 1
+    i = i + 1
   end
   array
 end
