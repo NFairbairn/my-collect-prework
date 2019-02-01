@@ -2,7 +2,7 @@ def my_collect (array)
   i = 0
   while i < array.length
     yield (array[i])
-    i.split(" ").first
+    new_arr = i.split(" ").first
   end
-  array
+  new_arr
 end
