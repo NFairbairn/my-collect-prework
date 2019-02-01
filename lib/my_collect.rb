@@ -5,7 +5,7 @@ def my_collect (array)
     block = yield (array[i])
 i = i + 1
     new_arry.push(block)
-    
+
   end
   new_arry
 end
