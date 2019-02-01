@@ -4,7 +4,7 @@ def my_collect (array)
     yield (array[i])
     result = []
     array.each do |element|
-      result << block.call(element)
+      result << array.call(element)
     end
       i = i + 1
   end
